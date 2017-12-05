@@ -1,5 +1,4 @@
 #! /usr/bin/python
-import datetime
-now = datetime.datetime.now()
-print "Current date and time is:"
-print str(now)
+import getpass
+username = getpass.getuser()
+print username
